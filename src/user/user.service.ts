@@ -23,7 +23,7 @@ export class UserService {
         return this.usersRepository.find();
     }
 
-    getUser( userId: number ) {
+    getUser( userId: number ):Promise<User>{
         return this.usersRepository.findOne({where:{id:userId}});
     }
 
