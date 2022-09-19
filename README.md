@@ -23,15 +23,15 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Features
-Authentication using Passport
-Local and JWT strategies are implemented
-TypeORM to connect with MySQL
-Implemented below basic CRUD operation for user in database
-1. POST: http://localhost:3000/user for creating new user
-2. GET: http://localhost:3000/user for lising all user in database
-3. GET: http://localhost:3000/user/{userId} for finding user by id
-4. PATCH: http://localhost:3000/user/{userId} for updating user by id
-5. DELETE: http://localhost:3000/user/{userId} for deleting perticular user by id
+1.Authentication using Passport
+2.Local and JWT strategies are implemented for authentication
+3.TypeORM to connect with MySQL
+4.Implemented below basic CRUD operation for user in database
+    - POST: http://localhost:3000/user for creating new user
+    - GET: http://localhost:3000/user for lising all user in database
+    - GET: http://localhost:3000/user/{userId} for finding user by id
+    - PATCH: http://localhost:3000/user/{userId} for updating user by id
+    - DELETE: http://localhost:3000/user/{userId} for deleting perticular user by id
 
 ## Installation
 
