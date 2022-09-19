@@ -22,9 +22,16 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Features
+Authentication using Passport
+Local and JWT strategies are implemented
+TypeORM to connect with MySQL
+Implemented below basic CRUD operation for user in database
+1. POST: http://localhost:3000/user for creating new user
+2. GET: http://localhost:3000/user for lising all user in database
+3. GET: http://localhost:3000/user/{userId} for finding user by id
+4. PATCH: http://localhost:3000/user/{userId} for updating user by id
+5. DELETE: http://localhost:3000/user/{userId} for deleting perticular user by id
 
 ## Installation
 
@@ -44,34 +51,6 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-# reference
+# Reference
 This project is for learning purpose and I took reference from below youtube channel.
 https://www.youtube.com/watch?v=Mgr5_r70OJQ&t=6372s&ab_channel=Bitfumes
-
-<<<<<<< HEAD
-=======
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-
-
-## License
-
-Nest is [MIT licensed](LICENSE).
->>>>>>> aba055ed7368128eae9e396e1a1b62f878e2b29d
