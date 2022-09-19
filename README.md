@@ -28,7 +28,7 @@
 - TypeORM to connect with MySQL
 - Implemented below basic CRUD operation for user in database
     - POST: http://localhost:3000/user for creating new user
-    - GET: http://localhost:3000/user for lising all user in database
+    - GET: http://localhost:3000/user for listing  all user in database
     - GET: http://localhost:3000/user/{userId} for finding user by id
     - PATCH: http://localhost:3000/user/{userId} for updating user by id
     - DELETE: http://localhost:3000/user/{userId} for deleting perticular user by id
