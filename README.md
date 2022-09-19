@@ -23,10 +23,10 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Features
-1.Authentication using Passport
-2.Local and JWT strategies are implemented for authentication
-3.TypeORM to connect with MySQL
-4.Implemented below basic CRUD operation for user in database
+- Authentication using Passport
+- Local and JWT strategies are implemented for authentication
+- TypeORM to connect with MySQL
+- Implemented below basic CRUD operation for user in database
     - POST: http://localhost:3000/user for creating new user
     - GET: http://localhost:3000/user for lising all user in database
     - GET: http://localhost:3000/user/{userId} for finding user by id
