@@ -48,3 +48,30 @@ $ npm run start:prod
 This project is for learning purpose and I took reference from below youtube channel.
 https://www.youtube.com/watch?v=Mgr5_r70OJQ&t=6372s&ab_channel=Bitfumes
 
+<<<<<<< HEAD
+=======
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+
+
+## License
+
+Nest is [MIT licensed](LICENSE).
+>>>>>>> aba055ed7368128eae9e396e1a1b62f878e2b29d
